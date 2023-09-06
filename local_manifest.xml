@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Trees -->
+ <project path="device/infinix/X657C" name="Miraclev1/android_device_infinix_X657C.git" remote="github" revision="lineage-17.1" />
+ <project path="vendor/infinix/X657C" name="Miraclev1/android_vendor_infinix_X657C.git" remote="github" revision="Android-Q" /> 
+</manifest>

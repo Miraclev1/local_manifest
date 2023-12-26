@@ -2,6 +2,8 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/infinix/X657C" name="Miraclev1/android_device_infinix_max.git" remote="github" revision="lineage-17.1" />
- <project path="vendor/infinix/X657C" name="Miraclev1/android_vendor_infinix_max.git" remote="github" revision="Android-Q" /> 
+ <project path="device/infinix/X657C" name="Miracleprjkt/Device_Infinix_X657C.git" remote="github" revision="master" />
+ <project path="vendor/infinix/X657C" name="Miracleprjkt/vendor_infinix_X657C.git" remote="github" revision="lineage-17.1" />
+ <project path="vendor/mediatek/ims" name="Miracleprjkt/vendor_mediatek_ims.git" remote="github" revision="eleven" />
+ 
 </manifest>

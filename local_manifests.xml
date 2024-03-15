@@ -7,12 +7,12 @@
             clone-depth="1" />
 
  <!-- Trees -->
- <project path="device/infinix/X657C" name="Miracleprjkt/Device_Infinix_X657C.git" remote="github" revision="EOL-10.0" />
+ <project path="device/xiaomi/ginkgo" name="https://github.com/Miracleprjkt/device_xiaomi_ginkgo.git" remote="github" revision="udc" />
 
  <!--Vendor-->
- <project path="vendor/infinix/X657C" name="Miracleprjkt/vendor_infinix_X657C.git" remote="github" revision="Android-10.0" />
+ <project path="kernel/xiaomi/ginkgo" name="https://github.com/tejas101k/Cuh-Kernel.git" remote="github" revision="fourteen" />
 
  <!--IMS-->
- <project path="vendor/mediatek/ims" name="Miracleprjkt/vendor_mediatek_ims.git" remote="github" revision="eleven" />
+ <project path="vendor/xiaomi/ginkgo" name="https://github.com/tejas101k/vendor_xiaomi_ginkgo-udc.git" remote="github" revision="udc" />
  
 </manifest>

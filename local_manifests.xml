@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- Remotes -->
+ <!-- Remotes -->
     <remote name="github"
             fetch="https://github.com"
             clone-depth="1" />
+ <!--Tree -->
+ <project path="device/xiaomi/ginkgo" name="Miracleprjkt/device_xiaomi_ginkgo" remote="github" revision="udc" />
 
- <!-- Trees -->
- <project path="device/xiaomi/ginkgo" name="https://github.com/Miracleprjkt/device_xiaomi_ginkgo.git" remote="github" revision="udc" />
-
- <!--Vendor-->
- <project path="kernel/xiaomi/ginkgo" name="https://github.com/tejas101k/Cuh-Kernel.git" remote="github" revision="fourteen" />
-
- <!--IMS-->
- <project path="vendor/xiaomi/ginkgo" name="https://github.com/tejas101k/vendor_xiaomi_ginkgo-udc.git" remote="github" revision="udc" />
+ <!--Kernel -->
+ <project path="kernel/xiaomi/ginkgo" name="tejas101k/cuh-kernel" remote="github" revision="fourteen" />
+ 
+ <!--Vendor -->
+ <project path="vendor/xiaomi/ginkgo" name="tejas101k/vendor_xiaomi_ginkgo-udc" remote="github" revision="udc" />
  
 </manifest>

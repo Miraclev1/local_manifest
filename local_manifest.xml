@@ -7,6 +7,6 @@
  <project path="device/infinix/X695C" name="Device_Infinix_X695C" remote="Miracleprjkt" revision="Los-20" />
 
  <!--Vendor -->
- <project path="vendor/infinix/X695C-Prebuilt" name="Vendor_X695C-Prebuilt" remote="Miracleprjkt" revision="master" />
+ <project path="vendor/infinix/X695C-X695C-prebuilt" name="Vendor_X695C-prebuilt" remote="Miracleprjkt" revision="master" />
 
 </manifest>

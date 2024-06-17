@@ -3,10 +3,15 @@
  <!-- Remotes -->
     <remote name="Miracleprjkt"
             fetch="https://github.com/Miracleprjkt"/>
+    <remote name="PixelExperience"
+            fetch="https://github.com/PixelExperience"/>
  <!--Tree -->
  <project path="device/infinix/X695C" name="Device_Infinix_X695C" remote="Miracleprjkt" revision="Los-20" />
 
  <!--Vendor -->
  <project path="vendor/infinix/X695C-prebuilt" name="Vendor_X695C-Prebuilt" remote="Miracleprjkt" revision="master" />
+
+ <!--Sepolicy_Vndr-->
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="PixelExperience" revision="thirteen" />
 
 </manifest>

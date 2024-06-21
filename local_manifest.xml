@@ -12,6 +12,7 @@
 
  <!--Vendor -->
  <project path="vendor/infinix/X695C-prebuilt" name="Vendor_X695C-Prebuilt" remote="Miracleprjkt" revision="master" />
+ <project path="vendor/infinix/X695C" name="vendor_infinix_X695C" remote="Miracleprjkt" revision="main-X695C" />
 
  <!--Sepolicy_Vndr-->
  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="PixelExperience" revision="thirteen" />

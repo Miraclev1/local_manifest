@@ -8,11 +8,11 @@
     <remote name="whoisgabutuniverseshit"
             fetch="https://github.com/whoisgabutuniverseshit"/>
  <!--Tree -->
- <project path="device/infinix/X695C" name="Device_Infinix_X695C" remote="Miracleprjkt" revision="Los-20" />
+ <project path="device/infinix/X6831" name="Device_Infinix_X6831" remote="Miracleprjkt" revision="lineage-20.0" />
 
  <!--Vendor -->
- <project path="vendor/infinix/X695C-prebuilt" name="Vendor_X695C-Prebuilt" remote="Miracleprjkt" revision="master" />
- <project path="vendor/infinix/X695C" name="vendor_infinix_X695C" remote="Miracleprjkt" revision="main-X695C" />
+ <project path="vendor/infinix/X6831" name="android_vendor_infinix_X6831" remote="Miracleprjkt" revision="main-X6831" />
+ <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="Miracleprjkt" revision="eleven" />
 
  <!--Sepolicy_Vndr-->
  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="PixelExperience" revision="thirteen" />

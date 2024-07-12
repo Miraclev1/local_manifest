@@ -8,7 +8,7 @@
     <remote name="whoisgabutuniverseshit"
             fetch="https://github.com/whoisgabutuniverseshit"/>
  <!--Tree -->
- <project path="device/infinix/X695C" name="Device_Infinix_X695C" remote="Miracleprjkt" revision="lineage-20.0" />
+ <project path="device/infinix/X695C" name="Device_Infinix_X695C" remote="Miracleprjkt" revision="lineage-18.1" />
 
  <!--Vendor -->
  <project path="vendor/infinix/X695C-firmware" name="Vendor_X695C-firmware" remote="Miracleprjkt" revision="master" />

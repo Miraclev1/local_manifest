@@ -3,22 +3,9 @@
  <!-- Remotes -->
     <remote name="Miracleprjkt"
             fetch="https://github.com/Miracleprjkt"/>
-    <remote name="PixelExperience"
-            fetch="https://github.com/PixelExperience"/>
-    <remote name="whoisgabutuniverseshit"
-            fetch="https://github.com/whoisgabutuniverseshit"/>
  <!--Tree -->
  <project path="device/infinix/X695C" name="Device_Infinix_X695C" remote="Miracleprjkt" revision="lineage-18.1" />
 
- <!--Vendor -->
- <project path="vendor/infinix/X695C-firmware" name="Vendor_X695C-firmware" remote="Miracleprjkt" revision="master" />
  <project path="vendor/infinix/X695C" name="vendor_infinix_X695C" remote="Miracleprjkt" revision="main-X695C" />
-
- <!--Sepolicy_Vndr-->
- <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="PixelExperience" revision="thirteen" />
-
-<!--Hardware-->
-  <project path="hardware/transsion" name="hardware_transsion" remote="whoisgabutuniverseshit" revision="lineage-20.0" />
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="whoisgabutuniverseshit" revision="lineage-20" />
  
 </manifest>

@@ -6,7 +6,7 @@
     <remote name="LineageOS"
             fetch="https://github.com/LineageOS"/>
  <!--Tree -->
- <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="Miracleprjkt" revision="test" />
+ <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="Miracleprjkt" revision="PixelOS" />
 
  <project path="vendor/xiaomi/ginkgo" name="Vendor_Xiaomi_Ginkgo" remote="Miracleprjkt" revision="fourteen" />
  

@@ -5,11 +5,25 @@
             fetch="https://github.com/Miracleprjkt"/>
     <remote name="LineageOS"
             fetch="https://github.com/LineageOS"/>
+  <remote name="Arrow"
+          fetch="https://github.com/ArrowOS" />
+  <remote name="Zor"
+          fetch="https://github.com/ZorEl212" />
+ 
  <!--Tree -->
- <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="Miracleprjkt" revision="PixelOS" />
+ <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="Miracleprjkt" revision="fourteen-dynamic" />
+ 
+ <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="Zor" revision="erofs-upstream-openELA" />
 
  <project path="vendor/xiaomi/ginkgo" name="Vendor_Xiaomi_Ginkgo" remote="Miracleprjkt" revision="fourteen" />
  
  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="LineageOS" revision="lineage-21.0" />
+
+ <!-- replace CherishOS frameworks -->
+ <remove-project name="frameworks_av"/>
+  <project path="frameworks/av" name="android_frameworks_av" remote="Miracleprjkt" revision="fit" />
+
+  <!-- MIUI Camera -->
+  <project path="vendor/miuicamera" name="ArrowOS-Devices/android_vendor_miuicamera" remote="Arrow" revision="arrow-12.0-a3" />
  
 </manifest>

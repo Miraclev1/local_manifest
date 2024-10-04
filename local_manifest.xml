@@ -17,8 +17,6 @@
 
  <project path="vendor/xiaomi/ginkgo" name="Vendor_Xiaomi_Ginkgo" remote="Miracleprjkt" revision="fourteen" />
  
- <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="LineageOS" revision="lineage-21.0" />
-
  <!-- replace CherishOS frameworks -->
  <remove-project name="frameworks_av"/>
   <project path="frameworks/av" name="android_frameworks_av" remote="Miracleprjkt" revision="fit" />
